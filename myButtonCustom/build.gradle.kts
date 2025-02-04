@@ -21,7 +21,7 @@ android {
                     from(components["release"])
                     groupId = "com.github.brunonavarro"
                     artifactId = "MyButtonCustom"
-                    version = "1.0.0-beta05"
+                    version = "1.0.0-beta06"
                 }
                 repositories {
                     mavenLocal()
@@ -40,6 +40,9 @@ android {
     }
     buildFeatures {
         compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.0"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8

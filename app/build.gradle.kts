@@ -40,7 +40,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.0"
     }
     packaging {
         resources {
@@ -50,6 +50,9 @@ android {
 }
 
 dependencies {
+
+    implementation("com.github.brunonavarro:MyButtonCustom:1.0.0-beta04")
+//    implementation(project(path = ":myButtonCustom"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

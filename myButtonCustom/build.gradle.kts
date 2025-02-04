@@ -21,7 +21,7 @@ android {
                     from(components["release"])
                     groupId = "com.github.brunonavarro"
                     artifactId = "MyButtonCustom"
-                    version = "1.0.0-beta04"
+                    version = "1.0.0-beta05"
                 }
                 repositories {
                     mavenLocal()
